@@ -1,0 +1,6 @@
+{
+  "versionCode": 2,
+  "versionName": "2.0.0",
+  "downloadUrl": "https://github.com/Fiki-io/phantom-version/releases/download/v2.0.0/app-release.apk",
+  "changelog": "- Rilis Resmi Phantom v2.0.0 (Universal APK 1.58 MB)\n- Perlindungan mesin native C++ mandiri\n- Pemutaran video di latar belakang & PiP otomatis\n- Pemblokir iklan & integrasi SponsorBlock\n- Sistem pembaruan in-app otomatis"
+}
