@@ -1,5 +1,8 @@
 {
   "versionCode": 3,
   "versionName": "2.0.1",
+  "minVersionCode": 3,
+  "forceUpdate": false,
   "downloadUrl": "https://github.com/Fiki-io/phantom-version/releases/download/Release/app-release.apk",
-  "changelog":"- update logo "}
+  "changelog": "- Peningkatan keamanan anti-tamper (C++ Core)\n- Validasi sertifikat rilis resmi\n- Pembaruan logo & performa"
+}
