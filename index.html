@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Phantom</title>
+    <style>
+        :root {
+            --bg-color: #0A0A0C;
+            --card-bg: #141418;
+            --text-primary: #FFFFFF;
+            --text-secondary: #A0A0AB;
+            --accent-purple: #6C5CE7;
+            --accent-cyan: #00CEC9;
+            --border: #26262E;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 16px;
+            border: 1px solid var(--border);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+        }
+        .logo-header {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 24px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+        .logo-box {
+            width: 48px;
+            height: 48px;
+            background: #0A0A0C;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid var(--border);
+        }
+        .play-triangle {
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-left: 18px solid var(--accent-purple);
+            filter: drop-shadow(0 0 4px var(--accent-cyan));
+        }
+        h1 {
+            font-size: 26px;
+            font-weight: 700;
+            color: var(--text-primary);
+        }
+        .meta {
+            color: var(--text-secondary);
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 19px;
+            color: var(--accent-cyan);
+            margin-top: 28px;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        p, li {
+            color: var(--text-secondary);
+            font-size: 15px;
+            margin-bottom: 14px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 16px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        strong {
+            color: var(--text-primary);
+        }
+        a {
+            color: var(--accent-cyan);
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .highlight-box {
+            background: rgba(108, 92, 231, 0.1);
+            border-left: 4px solid var(--accent-purple);
+            padding: 14px 18px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            font-size: 13px;
+            color: var(--text-secondary);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-header">
+            <div class="logo-box">
+                <div class="play-triangle"></div>
+            </div>
+            <div>
+                <h1>Phantom - Privacy Policy</h1>
+                <div class="meta">Effective & Last Updated: September 25, 2026</div>
+            </div>
+        </div>
+
+        <div class="highlight-box">
+            <p style="margin: 0; color: #FFFFFF;">
+                <strong>Summary:</strong> Phantom is designed with privacy-first architecture. We do <strong>not</strong> collect, track, store, or sell any personal data. Your watch history, subscriptions, and bookmarks stay 100% locally on your device.
+            </p>
+        </div>
+
+        <h2>1. Overview & Architecture</h2>
+        <p>Phantom ("we", "our", or "the app") provides a seamless, client-side video playback client for Android. We respect user privacy and operate without mandatory user accounts, registration, or analytics trackers.</p>
+
+        <h2>2. Data Handled by the Application</h2>
+        <p><strong>A. Local Device Data:</strong></p>
+        <ul>
+            <li><strong>Watch & Search History:</strong> Stored strictly in a local SQLite/Room database on your device sandbox. It is never transmitted to our servers and can be wiped anytime via Settings.</li>
+            <li><strong>Subscriptions & Saved Playlists:</strong> Maintained solely on your device without requiring a Google Account login.</li>
+            <li><strong>Preferences:</strong> User settings (audio-only playback, sleep timer, resolution choices) are kept in local SharedPreferences.</li>
+        </ul>
+
+        <p><strong>B. Third-Party Network Services:</strong></p>
+        <ul>
+            <li><strong>YouTube / Streaming Endpoints:</strong> Search queries and media playback streams are retrieved directly from public streaming endpoints. Use of these services is subject to <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>.</li>
+            <li><strong>SponsorBlock API:</strong> Non-personal video IDs are queried from the community-driven SponsorBlock database (sponsor.ajay.app) to automate skip segments.</li>
+            <li><strong>Update Checks:</strong> The app queries a public GitHub file to notify users when official updates are available.</li>
+        </ul>
+
+        <h2>3. Android Permissions Required</h2>
+        <ul>
+            <li><strong>INTERNET:</strong> Essential for loading search results and streaming video/audio streams.</li>
+            <li><strong>FOREGROUND_SERVICE:</strong> Required to maintain uninterrupted background audio playback and status notifications.</li>
+            <li><strong>POST_NOTIFICATIONS:</strong> Used on Android 13+ to display media player controls in the system notification drawer.</li>
+            <li><strong>REQUEST_INSTALL_PACKAGES:</strong> Only requested when the user voluntarily downloads an official app update.</li>
+        </ul>
+
+        <h2>4. Children’s Privacy</h2>
+        <p>Phantom does not target or knowingly collect data from children under the age of 13.</p>
+
+        <h2>5. Security</h2>
+        <p>Because no user account or personal data is collected on central servers, user privacy is safeguarded by Android OS sandboxing and end-to-end HTTPS/TLS encrypted connections.</p>
+
+        <h2>6. Contact Us</h2>
+        <p>If you have any questions or feedback regarding this Privacy Policy, please reach out to:</p>
+        <ul>
+            <li><strong>Developer:</strong> Fiki-io</li>
+            <li><strong>Email:</strong> <a href="mailto:totoyu379@gmail.com">totoyu379@gmail.com</a></li>
+            <li><strong>Repository:</strong> <a href="https://github.com/Fiki-io/Phantom" target="_blank" rel="noopener">https://github.com/Fiki-io/Phantom</a></li>
+        </ul>
+
+        <div class="footer">
+            &copy; 2026 Phantom Tube. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
