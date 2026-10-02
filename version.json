@@ -3,6 +3,6 @@
   "versionName": "2.10.2",
   "minVersionCode": 4,
   "forceUpdate": false,
-  "downloadUrl": "https://github.com/Fiki-io/phantom-version/releases/download/Release/Phantom.2.10.1.apk",
+  "downloadUrl": "https://github.com/Fiki-io/phantom-version/releases/download/Release/Phantom.2.10.2.apk",
   "changelog": "- Add new fitur Video Scrubbing\n- Add new fitur Zoom to Fill\n- Add privacy policy in settings\n- Add new Quick Quality\n- Add storyboard\n- Add Chanel search\n- Add language English japan rusia espanol support ( There may still be some strings that haven't been translated yet. )\n- Add send feedback\n- Fix icon/logo Chanel\n- Fix Size Panel Deskripsi & comentar\n- Fix Deskripsi kolom\n- Fix CC/Transkip\n- Full support Full Player Screen\n- Optimasi Tab\n- Optimasi swipe gesture\n- Home recommendation filter adjustment\n- Last minute cache adjustment\n- Intro outro adjustments\n- ETC"
 }
