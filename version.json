@@ -3,6 +3,5 @@
   "versionName": "2.10.29",
   "minVersionCode": 4,
   "forceUpdate": false,
-  "downloadUrl": "https://github.com/Fiki-io/phantom-version/releases/download/2.10.29/Phantom.2.10.29.apk",
-  "changelog": "- Media service optimization\n- Fix over cache\n- Fix overhead RAM\n- UI adjustments\n- Add floating video miniplayer\n- Add long-press 2x speed, video chapters, and search filters\nEtc"
-}
+  "downloadUrl": "https://github.com/Fiki-io/phantom-version/releases/download/2.11.12/phantom.2.11.12.apk",
+  "changelog": "-fix player,ui,scrolling/n- fix miniplayer/n- ETc"}
